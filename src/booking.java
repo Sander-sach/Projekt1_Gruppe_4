@@ -4,6 +4,7 @@ import java.time.format.DateTimeParseException;
 import java.util.*;
 
 public class booking {
+    // tilføj tlf nummer som variabel dette skal være søge variablen
     String navn;
     String tid;
     LocalDateTime time;
