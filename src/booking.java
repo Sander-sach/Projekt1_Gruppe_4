@@ -16,7 +16,7 @@ public class booking {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
     // Constructer starter en Booking med navn, tlf, tid.
-    booking(String navn, LocalDate time,int tid,String telefon){
+    public booking(String navn, LocalDate time,int tid,String telefon){
         this.navn=navn;
         this.time=time;
         this.telefon=telefon;
@@ -47,12 +47,13 @@ public class booking {
         // klokkeslæt for booking kun i timer fx: 10,11,12,13,14,15,16
         System.out.println("Indtast tid for booking:");
         tid = input.nextInt();
-
     }
+    public String getNavn(){return navn;}
+    public String getTelefon(){return telefon;}
+    public int getTid(){return tid;}
+
     public static void main(String[]arg){
-        booking a1=new booking(null,null,0,null);
-        a1.addBooking();
-        System.out.println(a1);
+
 
 
     }//Main
