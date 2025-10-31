@@ -62,7 +62,7 @@ public class Betaling {
             System.out.println("Forkert datoformat. Brug dd-MM-yyyy.");
         }
 
-        input.close();
+        //input.close();
     }
 }
 

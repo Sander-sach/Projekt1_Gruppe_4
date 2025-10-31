@@ -11,7 +11,7 @@ public class Kalender { // En booking indeholder dag, tidspunkt og navn
     }
 
 
-    public void kalenderuge(){
+    public void kalenderUge(){
         // Start- og slut-tidspunkter
         int startTid = 10;
         int slutTid = 17;
@@ -48,6 +48,6 @@ public static void main(String[] args) {
  uge1.opdaterKalender();
  a1.searchCustomer(uge1.kalender);
  a1.deleteBooking(uge1.kalender);
- uge1.kalenderuge();
+ uge1.kalenderUge();
 }
 }

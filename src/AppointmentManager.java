@@ -28,7 +28,6 @@ public class AppointmentManager {
             for (booking a : results) {
                 System.out.println(a.getTelefon() + ": " + a.getNavn() + " - " + a.getTid());
             }
-            //deleteBooking(results);
         }
     }
 
@@ -67,7 +66,7 @@ public class AppointmentManager {
         uge1.opdaterKalender();
         a1.searchCustomer(uge1.kalender);
         a1.deleteBooking(uge1.kalender);
-        uge1.kalenderuge();
+        uge1.kalenderUge();
 
 
     }
